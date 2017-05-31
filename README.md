@@ -1,6 +1,5 @@
 ofApp
 =====
-Build status : https://travis-ci.org/ofnode/ofApp.svg?branch=master
 
 Compiling
 ---------
