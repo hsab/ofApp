@@ -1,0 +1,8 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "cmake.configureSettings": {
+        "OF_ROOT": "~/Code/of-cmake-v0.9.8"
+    },
+    //"cmake.buildDirectory" : "${workspaceRoot}/build/${buildType}",
+    "cmake.experimental.useCMakeServer": false
+}

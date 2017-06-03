@@ -1,0 +1,36 @@
+{
+  "buildType": {
+    "default$": "debug",
+    "description$": "Build Type",
+    "debug": {
+      "oneWordSummary$": "Debug",
+      "description$": "Unoptimized with debug info",
+      "buildType": "Debug"
+    },
+    "release": {
+      "oneWordSummary$": "Release",
+      "description$": "Optimized without debug info",
+      "buildType": "Release"
+    }
+  },
+  "linkage": {
+    "default$": "static",
+    "description$": "Linking Method",
+    "static": {
+      "oneWordSummary$": "Static",
+      "description$": "Static linking of libraries",
+      "linkage": "static",
+      "settings": {
+        "OF_STATIC": "ON"
+      }
+    },
+    "shared": {
+      "oneWordSummary$": "Shared",
+      "description$": "Shared linking of libraries",
+      "linkage": "shared",
+      "settings": {
+        "OF_STATIC": "OFF"
+      }
+    }
+  }
+}
